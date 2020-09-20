@@ -23,11 +23,12 @@ body {
 }
 .editor-container.collapsed .CodeMirror-scroll {
   position: absolute;
+  overflow: hidden !important;
 }
 
 .editor-title {
   font-size: 1.3rem;
-  color:rgb(214, 203, 118);
+  color:#d0d0d0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,6 +36,13 @@ body {
   padding:.5rem .7rem;
   border-top-right-radius: .5rem;
   border-top-left-radius: .5rem;
+}
+.expand-collapse-button {
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  color:#d0d0d0;
+  outline: none;
 }
 .CodeMirror {
   height:100% !important;
