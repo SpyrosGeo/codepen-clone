@@ -21,6 +21,10 @@ body {
 .editor-container.collapsed{
   flex-grow:0;
 }
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+}
+
 .editor-title {
   font-size: 1.3rem;
   color:rgb(214, 203, 118);
